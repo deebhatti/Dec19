@@ -23,7 +23,8 @@ public class CBT {
 		if (browser.equals("Firefox")) {
 			driver = new FirefoxDriver();
 		}
-
+		 //Adding a comment at line number 26
+		
 		else if (browser.equals("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", "C:\\Webdrivers\\chromedriver_win32\\chromedriver.exe");
 			driver = new ChromeDriver();
